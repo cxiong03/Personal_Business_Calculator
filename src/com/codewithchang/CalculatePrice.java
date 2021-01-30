@@ -8,6 +8,6 @@ public class CalculatePrice {
 
         Scanner scanner = new Scanner(System.in);
         double price = costOfGoods / (1 - (percentMargin / 100));
-        System.out.println("Price item: $" + price);
+        System.out.println("\nPrice item: $" + price);
     }
 }

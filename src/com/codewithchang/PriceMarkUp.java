@@ -3,15 +3,16 @@ package com.codewithchang;
 public class PriceMarkUp {
 
     static void markUpDollarAmount(double itemPrice, double points) {
-        double markUp = itemPrice / points;
+        double decimalPoint = (points / 100);
+        double markUp = itemPrice * decimalPoint;
 
-        System.out.println("Total dollar mark-up: $" + markUp);
+        System.out.println("\nTotal dollar mark-up: $" + markUp);
     }
 
     static void markUpTotal(double itemPrice, double points) {
         double decimalPoint = (points / 100);
         double markUp = itemPrice * (decimalPoint + 1);
 
-        System.out.println("New Price: $" + markUp);
+        System.out.println("\nNew Price: $" + markUp);
     }
 }

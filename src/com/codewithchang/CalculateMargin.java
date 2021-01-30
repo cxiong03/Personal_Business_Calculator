@@ -7,6 +7,6 @@ public class CalculateMargin {
         double margin = (sellingGoods - costOfSellingGoods) / sellingGoods;
         margin += margin * 100;
 
-        System.out.println("Selling margin is: " + margin + "%");
+        System.out.println("\nSelling margin is: " + margin + "%");
     }
 }

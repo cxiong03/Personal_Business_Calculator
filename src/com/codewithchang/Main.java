@@ -3,18 +3,16 @@ package com.codewithchang;
 public class Main {
 
     public static void main(String[] args) {
-        CalculatePrice.Price(22, 25);
+        CalculatePrice.Price(15, 50);
 
-        System.out.println();
+        CalculateMargin.margin(30, 15);
 
-        CalculateMargin.margin(13, 7);
+        PriceMarkUp.markUpDollarAmount(30, 20);
 
-        System.out.println();
+        PriceMarkUp.markUpTotal(30, 20);
 
-        PriceMarkUp.markUpDollarAmount(29.3333, 10);
+        CalculateDiscount.discountDollarAmount(30, 15);
 
-        System.out.println();
-
-        PriceMarkUp.markUpTotal(29.3333, 10);
+        CalculateDiscount.markDownTotal(30, 15);
     }
 }
